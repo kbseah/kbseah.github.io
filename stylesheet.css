@@ -86,6 +86,13 @@ ul.bibliography li[data-ref-access|="oa"] {
   background-size: 0.75em;
 }
 
+ul.bibliography li[data-ref-access|="preprint"] {
+  background-image: url("icons/pencil_icon.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 1em;
+}
+
 ul.datalist {
   list-style-type: inherit;
   color: grey;
