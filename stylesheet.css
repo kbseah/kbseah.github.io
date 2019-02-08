@@ -79,6 +79,19 @@ ul.bibliography li {
   padding-left: 2.5em;
 }
 
+.bibtitle {
+  /*color: darkgreen;*/
+  font-weight: normal;
+}
+
+.bibtitlefirst {
+  font-weight: bold;
+}
+
+.biblinks {
+  font-size: 0.9em;
+}
+
 ul.bibliography li[data-ref-access|="oa"] {
   background-image: url("icons/oa-logo-plos.png");
   background-position: top left;
