@@ -99,6 +99,20 @@ ul.bibliography li[data-ref-access|="oa"] {
   background-size: 0.75em;
 }
 
+ul.bibliography li[data-ref-access|="oa-green"] {
+  background-image: url("icons/oa-logo-green.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 0.75em;
+}
+
+ul.bibliography li[data-ref-access|="oa-dmnd"] {
+  background-image: url("icons/oa-logo-diamond.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 0.75em;
+}
+
 ul.bibliography li[data-ref-access|="preprint"] {
   background-image: url("icons/pencil_icon.png");
   background-position: top left;
