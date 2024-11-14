@@ -156,3 +156,18 @@ ol {
   margin-right: auto;
   text-align: center;
 }
+
+#on,
+details[open] #off {
+  display: none;
+}
+
+#off,
+details[open] #on {
+  display: inline-block;
+  color: lightgray;
+}
+
+summary.para {
+  list-style: none;
+}
